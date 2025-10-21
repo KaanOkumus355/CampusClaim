@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>campusClaim</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <div id="sign_in">
+        <header>
+            <h1>CampusClaim</h1> 
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#lost">Lost</a>
+                <a href="#found">Found</a>
+                <a href="About_us.html">About Us</a>
+                <a href="#contact">Contact Us</a>
+                <a href="Sign_in.html">Sign In</a>
+            </nav>
+        </header> 
+
+        <section id="signinform">
+            <h2>Sign In</h2>
+            <form action="/submit_signin" method="post">
+                <label for="username">Matriculation Number:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Password(Campus Net Password):</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <button type="submit" class="btn" href="index.html">Sign In</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
