@@ -196,9 +196,11 @@ footer{
 
 #creators .creators-all {
     display: flex;
+    max-width: 800px;
+    margin: 0 auto;
     justify-content: center;
-    gap: 200px;
-    flex-wrap: wrap;
+    gap: 300px;
+    flex-wrap: nowrap;
 }
 
 #creators .creators-card h3{
@@ -209,7 +211,11 @@ footer{
     text-align: center;
 }
 
-#creators .creators-card p{
+#creators .creators-card p {
+    max-height: 3em;
+    line-height: 1.5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
     color: #ffffff;
@@ -219,7 +225,8 @@ footer{
 #creators .creators-card img{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin: 0 auto 15px auto;
+    display:block;
 }
