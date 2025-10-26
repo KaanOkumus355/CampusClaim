@@ -25,7 +25,7 @@ header h1 {
 nav a {
     color: white; 
     text-decoration: none; 
-    margin: 0 80px; 
+    margin: 0 100px; 
     font-weight: 500;
     transition: 0.3s;
 }
@@ -211,6 +211,15 @@ footer{
     flex-wrap: nowrap;
 }
 
+#creators .creators-card {
+    background: #002B5C;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    width: 250px;
+    text-align: center;
+}
+
 #creators .creators-card h3{
     font-family: 'Nunito', sans-serif;
     font-size: 1.5em;
@@ -237,4 +246,21 @@ footer{
     object-fit: cover;
     margin: 0 auto 15px auto;
     display:block;
+}
+
+#creators .social-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#creators .social-links a {
+    color: #00ffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#creators .social-links a:hover {
+    color: #0078D4;
 }
